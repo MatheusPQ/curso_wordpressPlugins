@@ -14,6 +14,7 @@ License: GPL2
 //Padrão Singleton
 class Segundo_Plugin {
     private static $instance;
+    const TEXT_DOMAIN = "meu-segundo-plugin";
 
     public static function getInstance(){
         if(self::$instance == NULL){
@@ -28,15 +29,22 @@ class Segundo_Plugin {
 
         add_action('welcome_panel', [$this,'welcome_panel']);
         add_action('admin_enqueue_scripts', [$this,'add_css']);
+        add_action('init', [$this,'meusegundoplugin_load_textdomain']);
 
+    }
+
+    function meusegundoplugin_load_textdomain(){
+        load_plugin_textdomain(self::TEXT_DOMAIN, false, dirname(plugin_basename(__FILE__)));
     }
 
     function welcome_panel(){
         ?>
     
         <div class="welcome-panel-content">
-            <h3>Seja bem vindo ao painel administrativo!</h3>
-            <p>Siga-nos nas redes sociais!</p>
+        <!-- Mesma coisa que '< ? php _e('...')'  -->
+            <h3> <?php _e("Seja bem vindo ao painel administrativo!", "meu-segundo-plugin"); ?></h3>
+            <p><?php _e('Siga-nos nas redes sociais!', "meu-segundo-plugin"); ?></p>
+            <p><?php _e('Olá!',"meu-segundo-plugin"); ?></p>
             <div id="icons">
                 <a href="#" target="_blank">
                     <img src="http://localhost/wordpress/wp-content/uploads/2018/12/1474968161-youtube-circle-color.png">

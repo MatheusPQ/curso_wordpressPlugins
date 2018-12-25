@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Personaliza Painel\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-25 14:28+0000\n"
+"PO-Revision-Date: 2018-12-25 14:30+0000\n"
+"Last-Translator: root <matheuspq79@outlook.com.br>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2"
+
+#. Description of the plugin
+msgid "Desenvolvido para personalizar painel"
+msgstr "Developed to customize admin panel."
+
+#. Author of the plugin
+msgid "Fulano Ciclano"
+msgstr "Fulano Ciclano"
+
+#. URI of the plugin
+msgid "http://exemplo.com"
+msgstr "http://exemplo.com"
+
+#. Author URI of the plugin
+msgid "http://fulanociclano.com.br"
+msgstr "http://fulanociclano.com.br"
+
+#. Name of the plugin
+msgid "Personaliza Painel"
+msgstr "Customize Panel"

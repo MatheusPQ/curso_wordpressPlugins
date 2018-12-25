@@ -1,0 +1,60 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Filmes Reviews\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-25 15:09+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.0; wp-5.0.2"
+
+#: filmes-reviews.php:127
+msgid "Ano de Lançamento"
+msgstr ""
+
+#: filmes-reviews.php:128
+msgid "Ano que o filme foi lançado"
+msgstr ""
+
+#: filmes-reviews.php:135
+msgid "Diretor"
+msgstr ""
+
+#. Name of the plugin
+msgid "Filmes Reviews"
+msgstr ""
+
+#. Author of the plugin
+msgid "Fulano Ciclano"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://exemplo.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://fulanociclano.com.br"
+msgstr ""
+
+#: filmes-reviews.php:121
+msgid "Informações Adicionais"
+msgstr ""
+
+#: filmes-reviews.php:142
+msgid "Link do site do filme"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plguin para reviews de filmes"
+msgstr ""
+
+#: filmes-reviews.php:136
+msgid "Quem dirigiu o filme"
+msgstr ""
