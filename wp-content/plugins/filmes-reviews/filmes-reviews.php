@@ -138,6 +138,7 @@ class Filmes_reviews {
                 [
                     'name' => __('Diretor', 'filmes-reviews'),
                     'desc' => __('Quem dirigiu o filme', 'filmes-reviews'),
+                    'id' => FIELD_PREFIX.'filme_diretor',
                     'type' => 'text',
                     'std' => '',
                 ],
@@ -194,7 +195,7 @@ class Filmes_reviews {
     }
 
     function add_style_scripts(){
-        wp_enqueue_script('filme-review-style', plugin_dir_url(__FILE__).'filme-review.css');
+        wp_enqueue_style('filme-review-style',plugin_dir_url(__FILE__).'filme-review.css');
     }
 
     //Quando o plugin for instalado, a regra de rewrite será feita automaticamente (ao invés de ter que ir manualmente em 'Configurações' e apenas clicar em 'Salvar Alterações').
