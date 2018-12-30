@@ -1,0 +1,1 @@
+Valores complementares de usuário, por ex., são inseridos na tabela de 'usermeta'.
