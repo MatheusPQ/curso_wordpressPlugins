@@ -44,15 +44,15 @@ get_header(); ?>
 		
 			<?php 
 			/* Atualiza email admin */
-				update_option('blogname', "Curso de Wordpress");
+// 				update_option('blogname', "Curso de Wordpress");
 			
-			/*Adicionar option*/
-			//add_option('meupluginteste', 'valor de teste');
+// 			/*Adicionar option*/
+// 			//add_option('meupluginteste', 'valor de teste');
 			
-			/*Remover option*/
-			delete_option('meupluginteste');
-				echo "<h1>".get_option('blogname')."</h1>";
-				echo "<br><h1>".get_option('admin_email')."</h1>";
+// 			/*Remover option*/
+// 			delete_option('meupluginteste');
+// 				echo "<h1>".get_option('blogname')."</h1>";
+// 				echo "<br><h1>".get_option('admin_email')."</h1>";
 			
 			?>
 			
