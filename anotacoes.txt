@@ -1,2 +1,9 @@
 Plugin meu-twitter:
     Tentar colocar outros botões, como facebook, ou youtube
+Dar uma olhada nos padrões de codificação do WP!
+
+Subindo o Plugin: (plugin exemplo: minhas_redes_sociais)
+    Precisa de um arquivo readme.txt
+        Dar uma olhada na documentação, que explica o que tal .txt deve ter
+    Zipar a pasta do plugin (minhas_redes_sociais.zip)
+    Subir o arquivo .zip no WP.
